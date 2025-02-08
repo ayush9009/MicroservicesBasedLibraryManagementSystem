@@ -3,7 +3,7 @@ const mongoose=require("mongoose");
 mongoose.model("Order",{
     CustomerID:{
         // this will hold or tellus customer identity
-        type:mongoose.SchemaTypes.ObjectId,  //model mai har cheez ka type dena pade ,to id ka is trah yaha type dena pade
+        type:mongoose.SchemaTypes.ObjectId //model mai har cheez ka type dena pade ,to id ka is trah yaha type dena pade
         required:true
     },
     BookID:{
